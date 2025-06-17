@@ -1,5 +1,56 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+#container{
+    background-color: whitesmoke;
+    padding: 100px;
+    margin: 100px;
+    height: 350px;
+    width: 200px;
+    border-radius: 20px;
 }
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#valor-carta{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+    color: pink;
+}
+
+#top-left-heart-card{
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -80px;
+    right: 70px;
+    font-size: 80px;
+}
+
+#below-right-heart-card{
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 250px;
+    left: 80px;
+    font-size: 80px;    
+}
+
+
+
+.red{
+    color: red; 
+}
+
+.violet{
+    color: palevioletred;
+}
+
